@@ -1,0 +1,111 @@
+@import "compass";
+@import "theme_variables";
+body.index{
+	background-color:#f3f3f3;
+	line-height: 1.6em;
+}
+
+.bannercontainer .tp-caption.btn-links.btn-link-bg .caption-contain{
+	background: $theme-color-default !important;
+	border: 2px solid $theme-color-default;
+	color:$white !important;
+}
+
+.block{
+	&.text-left{
+		@include rtl-text-align-left();
+		.title_block{
+			
+			@include rtl-text-align-left();
+			&:after{
+				@include rtl-left(0);	
+				margin: 0;
+			}
+		}
+		.btn{
+			margin-top: 20px;
+		}
+	}
+}
+.block-icon {
+	line-height: 1.6em;
+	text-align: center;
+	.box-item{
+		display: inline-block;
+		background-color: #f3f3f3;
+		@include size(70px,70px);
+		@include border-radius(50%);
+		line-height: 70px;
+		margin-bottom: 5px;
+	}
+	i {
+	    font-size: 18px;
+	   	color: $black;
+	}
+	h2 {
+	    font-size: 14px;
+	    font-weight: 700;
+	    margin: 20px 0 25px 0;
+	    color: $black;
+	}
+	.btn{
+		margin-top: 25px;
+	}
+}
+
+.widget-category_image{
+	background-color: $white;
+	img{
+		max-width: 100%;
+	    filter : grayscale(100%);
+	    -moz-filter: grayscale(100%);
+	    -webkit-filter:grayscale(100%);
+	    -ms-filter:grayscale(100%);
+	    -o-filter:grayscale(100%);
+	    @include transition(all 0.5s ease 0s);
+		&:hover{
+			filter : grayscale(0);
+		    -moz-filter: grayscale(0%);
+		    -webkit-filter:grayscale(0%);
+		    -ms-filter:grayscale(0%);
+		    -o-filter:grayscale(0%);
+		}
+	}
+	label{
+		margin-top: 20px;
+		text-transform: uppercase;
+		color: $black;
+		font-family: $font-family-tertiary;
+		font-weight: 700;
+	}
+	.nbproducts{
+		padding-bottom: 20px;
+	}
+	.badge{
+		background-color: $nocolor;
+		color: #666666;
+	}
+}
+.bg-fullwidth:before {
+    background-size: initial !important;
+    top: 0;
+    background-position: 85% 0% !important;
+}
+.blog-container{
+		img{
+		max-width: 100%;
+	    filter : grayscale(100%);
+	    -moz-filter: grayscale(100%);
+	    -webkit-filter:grayscale(100%);
+	    -ms-filter:grayscale(100%);
+	    -o-filter:grayscale(100%);
+	    @include transition(all 0.5s ease 0s);
+		&:hover{
+			filter : grayscale(0);
+		    -moz-filter: grayscale(0%);
+		    -webkit-filter:grayscale(0%);
+		    -ms-filter:grayscale(0%);
+		    -o-filter:grayscale(0%);
+		}
+	}
+}

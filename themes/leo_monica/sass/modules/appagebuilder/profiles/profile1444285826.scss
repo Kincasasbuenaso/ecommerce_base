@@ -1,0 +1,257 @@
+@import "compass";
+@import "theme_variables";
+
+.screen{
+	min-height: 900px;
+	h2{
+		font-size: 60px;
+		font-weight: 700;
+		line-height: 1.2em;
+	}
+	> .ApColumn{
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0; 
+	}
+	.block .title_block{
+		font-size: 36px;
+	}
+}
+.block-table{
+	display: table;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+.block-table-cell{
+	display: table-cell;
+    vertical-align: middle;
+}
+.item-center{
+	text-align: center;
+	color: $white;
+	font-size: 18px;
+	h2{
+		font-size: 60px;
+		font-weight: 700;
+		color: $white;
+		line-height: 1.2em;
+	}
+	.btn{
+		margin-top: 20px;
+		border: 2px solid $white;
+		color: $white;
+		background-color: $nocolor;
+		&:hover{
+			background-color: $theme-color-default;
+			color: $white;
+			border-color: $theme-color-default; 
+		}
+		&.btn-links{
+			background-color: $theme-color-default;
+			color: $white;
+			border-color: $theme-color-default; 
+			@include rtl-margin-left(8px);
+			&:hover{
+				border: 2px solid $white;
+				color: $white;
+				background-color: $nocolor;
+			}
+		}
+	}
+}
+.item-left{
+	.block{
+		.title_block{
+			@include rtl-text-align-left;
+			&:after{
+				@include rtl-right(auto);
+			}
+		}
+	}
+}
+.thesay-block{
+	color: $black;
+	@include rtl-margin-left(-15px);
+	margin-bottom: 60px;
+	.left-block{
+		@include rtl-float-left();
+		@include rtl-margin-right(20px);
+	}
+	.right-block{
+		@include rtl-float-right();
+		width: 72%;
+	}
+	.title{
+		margin-top: 20px;
+		span{
+			color: $black;
+			font-family: $font-family-tertiary;
+			text-transform: uppercase;
+		}
+	}
+}
+.margin-home-top{
+	h2{
+		margin-top: 20%;
+	}
+}
+// line-title
+.line-title{
+	h2{
+		position: relative;
+		line-height: 0.8em;
+		padding-bottom: 35px;
+    	margin-bottom: 40px;
+		&:before{
+			content: "";
+			position: absolute;
+			@include rtl-left(0);
+			bottom: 0px;
+			width: 70px; height: 2px;
+			background-color: $black;
+		}
+		span{
+			display: block;
+			position: relative;
+			font-size: 20px;
+			letter-spacing: 8px;
+			font-weight: 700;
+			color: #666666;
+			@include rtl-padding-left(15px);
+			&:before{
+				content: "";
+				position: absolute;
+				@include rtl-left(0);
+				top: 0px;
+				width: 3px; height: 19px;
+				background-color:$theme-color-default;
+				bottom: 0;
+    			margin: auto;
+			}
+			&:after{
+				content: "";
+				position: absolute;
+				@include rtl-left(5px);
+				top: 0px;
+				width: 3px; height: 19px;
+				background-color:$theme-color-default;
+				bottom: 0;
+    			margin: auto;
+			}
+		}
+	}
+	.btn{
+		margin-top: 20px;
+		background-color: $theme-color-default;
+		&:hover{
+			background-color: $theme-color-secondary;
+		}
+	}
+}
+.widget-category_image{
+	.block_content{
+		> ul{
+			li{
+				cursor: pointer;
+				background-color: $white;
+				.cate_content label{
+					font-size: 18px;
+				    text-transform: uppercase;
+				    font-weight: 700;
+				    font-family: $font-family-tertiary;
+				    padding: 20px 0 0 0;
+				}
+			}
+			.nbproducts .badge{
+				background-color: $nocolor;
+				color: #666666;
+				font-size: 14px;
+				padding: 0 0 20px 0;
+			    display: block;
+			}
+		}
+	}
+}
+.block{
+	.title_block{
+		&:after{
+			top: 85px;
+		}
+	}
+}
+.color-white{
+	.block{
+		.title_block{
+			color: $white;	
+			span{
+				color: $white;
+			}
+		}
+	}
+}
+
+#newsletter_block_left{
+	.block_content{
+		p{
+			display: none;
+		}
+	}
+	.form-group{
+		position: relative;
+	}
+	.form-control{
+		height: 50px;
+	}
+	.button{
+		position: absolute;
+		margin-top:0px !important;
+	    top: 0;
+	    @include rtl-right(0);
+	    height: 50px;
+	    width: 50px;
+	}
+}
+
+.footer_about{
+	text-align: center;
+}
+#social_block{
+	display: inline-block;
+	ul{
+		&:before,&:after{
+			content: "";
+			display: table;
+			clear: both;
+		}
+		li a{
+			width: 50px;
+		}
+	}
+}
+@media (min-width: 992px){
+	#center_column #newsletter_block_left{
+		width: 700px;
+		margin: auto;
+		text-align: center;
+	}
+
+}
+
+@media (min-width: 480px){
+	.widget-category_image{
+		.block_content{
+			> ul{
+				width: 33.33333%;
+				@include rtl-float-left();
+				padding-left: 15px;
+	    		padding-right: 15px;
+	    		img{
+	    			max-width: 100%;
+	    		}
+			}
+		}
+	}
+}	

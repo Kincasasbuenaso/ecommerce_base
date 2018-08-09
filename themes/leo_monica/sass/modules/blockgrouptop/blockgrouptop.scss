@@ -1,0 +1,23 @@
+@import "compass";
+@import "theme_variables";
+
+
+#leo_block_top{
+	@include rtl-float-left();
+	#first-languages{
+		li{
+			@include rtl-margin-right(5px);
+			a{
+				margin: 0px;
+			}
+		}
+	}
+	p{
+		font-weight: 700;
+		text-transform: uppercase;
+  		font-size: 11px;
+	}
+	#setCurrency{
+		margin-top: 10px;
+	}
+}

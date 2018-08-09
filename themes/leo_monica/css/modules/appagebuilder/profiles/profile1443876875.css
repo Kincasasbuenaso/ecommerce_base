@@ -1,0 +1,188 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+body.index {
+  background-color: #f3f3f3;
+}
+
+#topbar {
+  background-color: transparent;
+  border: none;
+}
+#topbar .container {
+  border-bottom: 1px solid #eaeaea;
+}
+
+.top_header {
+  background-color: transparent;
+}
+.top_header .container {
+  background-color: white;
+}
+
+#center_column .ApRow .ApColumn .block {
+  margin-bottom: 0px;
+}
+#center_column .padding-colunm {
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-top: 30px;
+}
+#center_column .padding-colunm .block .title_block {
+  margin: 0 0 30px 0;
+}
+
+.box-icon {
+  text-align: center;
+}
+.box-icon i {
+  font-size: 30px;
+  color: #f25d5d;
+}
+.box-icon h2 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.box-icon p {
+  line-height: 22px;
+}
+
+.testimonials-hook {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+}
+.testimonials-hook:before {
+  content: "\f10d";
+  position: absolute;
+  font-size: 32px;
+  font-family: "FontAwesome";
+  color: #fff;
+  left: 0px;
+  margin: auto;
+  right: 0;
+  top: 65px;
+  width: 80px;
+  height: 80px;
+  border: 1px solid #90989f;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  line-height: 80px;
+}
+.testimonials-hook .descript {
+  width: 88%;
+  margin: 20px auto 30px auto;
+  line-height: 30px;
+}
+.testimonials-hook .title span {
+  color: white;
+}
+.testimonials-hook .block_carousel {
+  padding: 0px 80px;
+}
+.testimonials-hook a {
+  color: white;
+}
+.testimonials-hook .owl-item {
+  padding: 0px;
+}
+.testimonials-hook .title {
+  font-size: 14px;
+  color: #cccccc;
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
+.testimonials-hook img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  margin: auto;
+}
+.testimonials-hook .owl-theme .owl-controls .owl-buttons {
+  position: static;
+  width: auto;
+}
+.testimonials-hook .owl-theme .owl-controls .owl-buttons div {
+  position: absolute;
+  top: 65%;
+  bottom: 0px;
+  margin: auto;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+.testimonials-hook .owl-theme .owl-controls .owl-buttons div.owl-prev {
+  left: -65px;
+  -webkit-transform: translate(-40px, 0px);
+  -ms-transform: translate(-40px, 0px);
+  transform: translate(-40px, 0px);
+}
+.testimonials-hook .owl-theme .owl-controls .owl-buttons div.owl-prev:after {
+  display: none;
+}
+.testimonials-hook .owl-theme .owl-controls .owl-buttons div.owl-next {
+  right: -65px;
+  -webkit-transform: translate(40px, 0px);
+  -ms-transform: translate(40px, 0px);
+  transform: translate(40px, 0px);
+}
+.testimonials-hook:hover .owl-theme .owl-controls .owl-buttons div {
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.manufacturers_block {
+  padding-bottom: 40px;
+}
+.manufacturers_block img {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.content_bottom {
+  border: none;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 1400px !important;
+  }
+
+  .padding-width {
+    padding-left: 115px;
+    padding-right: 115px;
+  }
+
+  .rtl .container {
+    width: 1400px !important;
+    min-width: 1400px;
+  }
+}
+@media (max-width: 1200px) {
+  #center_column .padding-colunm, .rtl #center_column .padding-colunm {
+    padding-top: 0px;
+  }
+}

@@ -1,0 +1,12 @@
+#viewed-products_block_left{
+	padding: 0px;
+	.title_block{
+		padding:20px;
+		margin: 0;
+	}
+	li:last-child{
+		.product-block{
+			border-bottom: 0 none;
+		}
+	}
+}

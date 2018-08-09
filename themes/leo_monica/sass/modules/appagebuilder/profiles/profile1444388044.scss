@@ -1,0 +1,40 @@
+@import "compass";
+@import "theme_variables";
+
+.block .title_block{
+	font-size: 36px;
+	&:after{
+		top: 90px;
+	}
+}
+.tabs-top{
+	margin-bottom: 0px;
+}
+.block-icon {
+	line-height: 1.6em;
+	i {
+	    font-size: 30px;
+	   	color: $theme-color-default;
+	}
+	h2 {
+	    font-size: 14px;
+	    font-weight: 700;
+	    margin-top: 20px;
+	}
+}
+.manufacturers_block{
+	position: relative;
+	padding: 35px 0;
+	&:before{
+		position: absolute;
+	    content: "";
+	    bottom: 0px;
+	    left: -2000px;
+	    width: 4000px;
+	    height: 1px;
+	    background-color: #eaeaea;
+	}
+    img{
+    	@include opacity(1);
+    }
+}

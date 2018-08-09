@@ -1,0 +1,50 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+.contact-hook {
+  text-align: center;
+  color: white;
+}
+.contact-hook h6, .contact-hook a {
+  color: white;
+  font-family: "Lato";
+  font-size: 14px;
+}
+.contact-hook h6:first-child {
+  font-family: "Montserrat";
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.contact-hook span {
+  font-size: 34px;
+  display: block;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  padding: 25px;
+  margin: 20px 50px;
+}
+.contact-hook:before {
+  width: 2500px;
+  margin-left: -500px;
+}
+
+#footer {
+  background-color: #272727;
+}
+
+@media (min-width: 992px) {
+  .float-vertical .block_content {
+    display: block;
+  }
+}

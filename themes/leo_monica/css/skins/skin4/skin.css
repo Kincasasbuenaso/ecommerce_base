@@ -1,0 +1,236 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+a {
+  color: #666666;
+}
+a:hover, a:focus {
+  color: #00bcd5;
+}
+
+.btn {
+  background-color: black;
+}
+.btn:hover {
+  background-color: #00bcd5;
+}
+
+@media (min-width: 991px) {
+  .ApColumn .block.btn_search a:hover {
+    color: #00bcd5;
+  }
+}
+.block .title_block:after {
+  background-color: #00bcd5;
+}
+
+.feature-box .fbox-body .fa {
+  color: #00bcd5;
+}
+
+.top_nav_ct .popup-over .popup-title:hover {
+  color: #00bcd5;
+}
+
+.popup-over .popup-content a:hover {
+  color: #00bcd5 !important;
+}
+
+#topbar p a:hover {
+  color: #00bcd5;
+}
+#topbar a:hover {
+  color: #00bcd5;
+}
+#topbar .header_user_info .popup-title a:hover {
+  color: #00bcd5;
+}
+#topbar .header_user_info .header_info a:hover {
+  color: #00bcd5;
+}
+#topbar .popup-title:hover {
+  color: #00bcd5;
+}
+
+#header .cart_block {
+  border-color: #00bcd5;
+}
+#header .cart_block a:hover {
+  color: #00bcd5;
+}
+
+#cart .title-cart:hover {
+  color: #00bcd5;
+}
+#cart .cart-quantity {
+  background-color: #00bcd5;
+}
+
+.popup-over .popup-content {
+  border-color: #00bcd5;
+}
+
+.leo-megamenu .navbar-nav > li.active > a, .leo-megamenu .navbar-nav > li:hover > a, .leo-megamenu .navbar-nav > li:focus > a {
+  color: #00bcd5;
+}
+.leo-megamenu .dropdown-menu {
+  border-color: #00bcd5;
+}
+.leo-megamenu .dropdown-menu li a:hover {
+  color: #00bcd5;
+}
+.leo-megamenu .dropdown-menu li a:hover > .menu-title {
+  color: #00bcd5;
+}
+
+form#searchbox .btn:hover {
+  color: #00bcd5;
+}
+
+.iview-directionNav a:hover.iview-prevNav {
+  border-left: 24px solid #00bcd5;
+  color: white;
+}
+
+.iview-directionNav a:hover.iview-nextNav {
+  border-right: 24px solid #00bcd5;
+  color: white;
+}
+
+.bannercontainer .tp-caption.btn:hover {
+  background-color: #00bcd5;
+  border-color: #00bcd5;
+}
+
+.bannercontainer .tp-caption.btn.btn-links:hover {
+  background-color: #00bcd5;
+  border-color: #00bcd5;
+}
+
+.breadcrumb {
+  color: #00bcd5;
+}
+.breadcrumb a:hover {
+  color: #00bcd5;
+}
+
+.feature-box:hover .fbox-icon {
+  color: #00bcd5;
+  border-color: #00bcd5;
+}
+.feature-box:hover .fbox-icon:before {
+  -webkit-box-shadow: 3px 3px #00bcd5;
+  box-shadow: 3px 3px #00bcd5;
+}
+
+.pagination .btn:hover {
+  background-color: #00bcd5;
+}
+
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
+.pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+  color: #00bcd5;
+}
+
+.pagination > li.pagination_next a:hover, .pagination > li.pagination_previous a:hover {
+  background-color: #00bcd5;
+}
+
+.carousel-control:hover {
+  color: #00bcd5;
+}
+
+.owl-theme .owl-controls .owl-buttons div:hover:before {
+  color: #00bcd5;
+}
+
+.product-block .name a:hover {
+  color: #00bcd5;
+}
+.product-block .functional-buttons a:hover {
+  border-color: #00bcd5;
+  background-color: #00bcd5;
+}
+.product-block .quick-view:hover {
+  background-color: #00bcd5;
+}
+
+.hook-center-content div.button .btn:hover {
+  background-color: #00bcd5;
+  border-color: #00bcd5;
+}
+
+.latest-blogs .blog-container .blog-title a:hover {
+  color: #00bcd5;
+}
+
+.testimonials a:hover {
+  color: white;
+}
+
+#categories_block_left li a:hover {
+  color: #00bcd5;
+}
+
+#categories_block_left li ul li a:hover {
+  color: #00bcd5;
+}
+
+.blog-menu ul li a:hover, .blog-menu ul li a.selected {
+  color: #00bcd5;
+}
+
+.box-cart-bottom .btn.add_to_compare:hover,
+.box-cart-bottom .btn.add_to_wishlist:hover {
+  color: #00bcd5;
+}
+
+.nav-tabs.page-product-heading > li > a:hover {
+  border-color: #00bcd5;
+  color: #00bcd5;
+}
+
+.nav-tabs.page-product-heading > li.active > a,
+.nav-tabs.page-product-heading > li.active > a:hover,
+.nav-tabs.page-product-heading > li.active > a:focus {
+  border-color: #00bcd5;
+  color: #00bcd5;
+}
+
+#quantity_wanted_p .btn:hover {
+  background-color: #00bcd5;
+  border-color: #00bcd5;
+}
+
+#footer a:hover {
+  color: #00bcd5;
+}
+
+#back-top a {
+  background: #00bcd5;
+}
+
+.hook_home_top .ApImage {
+  -webkit-box-shadow: 15px 15px 0px #00bcd5;
+  box-shadow: 15px 15px 0px #00bcd5;
+}
+
+.font-icon .ApColumn h2 i, .box-icon i {
+  color: #00bcd5;
+}
+
+.close-map:hover {
+  background-color: #00bcd5;
+}

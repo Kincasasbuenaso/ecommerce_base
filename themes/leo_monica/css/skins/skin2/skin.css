@@ -1,0 +1,236 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+a {
+  color: #666666;
+}
+a:hover, a:focus {
+  color: #258beb;
+}
+
+.btn {
+  background-color: black;
+}
+.btn:hover {
+  background-color: #258beb;
+}
+
+@media (min-width: 991px) {
+  .ApColumn .block.btn_search a:hover {
+    color: #258beb;
+  }
+}
+.block .title_block:after {
+  background-color: #258beb;
+}
+
+.feature-box .fbox-body .fa {
+  color: #258beb;
+}
+
+.top_nav_ct .popup-over .popup-title:hover {
+  color: #258beb;
+}
+
+.popup-over .popup-content a:hover {
+  color: #258beb !important;
+}
+
+#topbar p a:hover {
+  color: #258beb;
+}
+#topbar a:hover {
+  color: #258beb;
+}
+#topbar .header_user_info .popup-title a:hover {
+  color: #258beb;
+}
+#topbar .header_user_info .header_info a:hover {
+  color: #258beb;
+}
+#topbar .popup-title:hover {
+  color: #258beb;
+}
+
+#header .cart_block {
+  border-color: #258beb;
+}
+#header .cart_block a:hover {
+  color: #258beb;
+}
+
+#cart .title-cart:hover {
+  color: #258beb;
+}
+#cart .cart-quantity {
+  background-color: #258beb;
+}
+
+.popup-over .popup-content {
+  border-color: #258beb;
+}
+
+.leo-megamenu .navbar-nav > li.active > a, .leo-megamenu .navbar-nav > li:hover > a, .leo-megamenu .navbar-nav > li:focus > a {
+  color: #258beb;
+}
+.leo-megamenu .dropdown-menu {
+  border-color: #258beb;
+}
+.leo-megamenu .dropdown-menu li a:hover {
+  color: #258beb;
+}
+.leo-megamenu .dropdown-menu li a:hover > .menu-title {
+  color: #258beb;
+}
+
+form#searchbox .btn:hover {
+  color: #258beb;
+}
+
+.iview-directionNav a:hover.iview-prevNav {
+  border-left: 24px solid #258beb;
+  color: white;
+}
+
+.iview-directionNav a:hover.iview-nextNav {
+  border-right: 24px solid #258beb;
+  color: white;
+}
+
+.bannercontainer .tp-caption.btn:hover {
+  background-color: #258beb;
+  border-color: #258beb;
+}
+
+.bannercontainer .tp-caption.btn.btn-links:hover {
+  background-color: #258beb;
+  border-color: #258beb;
+}
+
+.breadcrumb {
+  color: #258beb;
+}
+.breadcrumb a:hover {
+  color: #258beb;
+}
+
+.feature-box:hover .fbox-icon {
+  color: #258beb;
+  border-color: #258beb;
+}
+.feature-box:hover .fbox-icon:before {
+  -webkit-box-shadow: 3px 3px #258beb;
+  box-shadow: 3px 3px #258beb;
+}
+
+.pagination .btn:hover {
+  background-color: #258beb;
+}
+
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
+.pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+  color: #258beb;
+}
+
+.pagination > li.pagination_next a:hover, .pagination > li.pagination_previous a:hover {
+  background-color: #258beb;
+}
+
+.carousel-control:hover {
+  color: #258beb;
+}
+
+.owl-theme .owl-controls .owl-buttons div:hover:before {
+  color: #258beb;
+}
+
+.product-block .name a:hover {
+  color: #258beb;
+}
+.product-block .functional-buttons a:hover {
+  border-color: #258beb;
+  background-color: #258beb;
+}
+.product-block .quick-view:hover {
+  background-color: #258beb;
+}
+
+.hook-center-content div.button .btn:hover {
+  background-color: #258beb;
+  border-color: #258beb;
+}
+
+.latest-blogs .blog-container .blog-title a:hover {
+  color: #258beb;
+}
+
+.testimonials a:hover {
+  color: white;
+}
+
+#categories_block_left li a:hover {
+  color: #258beb;
+}
+
+#categories_block_left li ul li a:hover {
+  color: #258beb;
+}
+
+.blog-menu ul li a:hover, .blog-menu ul li a.selected {
+  color: #258beb;
+}
+
+.box-cart-bottom .btn.add_to_compare:hover,
+.box-cart-bottom .btn.add_to_wishlist:hover {
+  color: #258beb;
+}
+
+.nav-tabs.page-product-heading > li > a:hover {
+  border-color: #258beb;
+  color: #258beb;
+}
+
+.nav-tabs.page-product-heading > li.active > a,
+.nav-tabs.page-product-heading > li.active > a:hover,
+.nav-tabs.page-product-heading > li.active > a:focus {
+  border-color: #258beb;
+  color: #258beb;
+}
+
+#quantity_wanted_p .btn:hover {
+  background-color: #258beb;
+  border-color: #258beb;
+}
+
+#footer a:hover {
+  color: #258beb;
+}
+
+#back-top a {
+  background: #258beb;
+}
+
+.hook_home_top .ApImage {
+  -webkit-box-shadow: 15px 15px 0px #258beb;
+  box-shadow: 15px 15px 0px #258beb;
+}
+
+.font-icon .ApColumn h2 i, .box-icon i {
+  color: #258beb;
+}
+
+.close-map:hover {
+  background-color: #258beb;
+}

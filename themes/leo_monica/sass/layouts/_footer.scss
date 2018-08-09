@@ -1,0 +1,94 @@
+// footer.scss
+@import "vars/footer.vars";
+
+// block in footer
+
+
+#powered{
+	.copyright{
+		a{
+			color: $theme-color-default;
+			&:hover{
+				color: $theme-color-secondary;
+			}
+		}
+	}
+	.ApImage{
+		img{
+			display: inline-block;
+		}
+	}
+}
+.powered{
+	border-top: $main-border;
+}
+#footer-center{
+	overflow: hidden;
+	> .ApColumn {
+		padding: 50px 30px 60px;
+		&:before{
+		  	@include rtl-border-right(1px solid rgba(0,0,0,0.08));
+		  	content: "";
+		  	height: 1000%;
+		  	@include rtl-right(0);
+		  	position: absolute;
+		  	top: 0;
+		}
+		&:last-child{
+			&:before{
+				border: none;
+			}
+		}
+	}
+}
+.footer_top{
+	text-align: center;
+	line-height: 1.6em;
+	img{
+		margin: 0 auto 50px auto;
+	}
+}
+.footer_about{
+	.block{
+		margin-bottom: 20px;
+	}
+}
+// Footer_bottom
+.footer_bottom{
+    padding: 20px 0 40px 0;
+    line-height: 22px;
+    font-size: 13px;
+    text-align: center;
+    position: relative;
+    margin-top: 55px;
+    &:before{
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: -2000px;
+        background-color: #525252;
+        @include size(4000px,1px);
+    }
+    a{
+        color: $theme-color-default;
+    }
+    .block{
+        margin-bottom: 0px;
+    }
+    .ApHtml{
+        margin: 20px 0;
+    }
+    p{
+        margin: 0px;
+    }
+    .ApImage{
+        text-align: center;
+        img{
+            display: inline;
+        }
+    }
+}
+.footer_about{
+	@include clearfix();
+}

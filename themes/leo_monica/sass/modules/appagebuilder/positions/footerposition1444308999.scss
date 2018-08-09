@@ -1,0 +1,18 @@
+@import "compass";
+@import "theme_variables";
+.footer_about{
+	text-align: center;
+}
+#social_block{
+	display: inline-block;
+	ul{
+		&:before,&:after{
+			content: "";
+			display: table;
+			clear: both;
+		}
+		li a{
+			width: 50px;
+		}
+	}
+}

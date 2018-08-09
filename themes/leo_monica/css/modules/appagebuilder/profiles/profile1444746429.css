@@ -1,0 +1,139 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+body.index {
+  background-color: #f3f3f3;
+  line-height: 1.6em;
+}
+
+.bannercontainer .tp-caption.btn-links.btn-link-bg .caption-contain {
+  background: #f25d5d !important;
+  border: 2px solid #f25d5d;
+  color: white !important;
+}
+
+.block.text-left {
+  text-align: left;
+}
+.rtl .block.text-left {
+  text-align: right;
+}
+.block.text-left .title_block {
+  text-align: left;
+}
+.rtl .block.text-left .title_block {
+  text-align: right;
+}
+.block.text-left .title_block:after {
+  left: 0;
+  margin: 0;
+}
+.rtl .block.text-left .title_block:after {
+  right: 0;
+  left: auto;
+}
+.block.text-left .btn {
+  margin-top: 20px;
+}
+
+.block-icon {
+  line-height: 1.6em;
+  text-align: center;
+}
+.block-icon .box-item {
+  display: inline-block;
+  background-color: #f3f3f3;
+  width: 70px;
+  height: 70px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  line-height: 70px;
+  margin-bottom: 5px;
+}
+.block-icon i {
+  font-size: 18px;
+  color: black;
+}
+.block-icon h2 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 20px 0 25px 0;
+  color: black;
+}
+.block-icon .btn {
+  margin-top: 25px;
+}
+
+.widget-category_image {
+  background-color: white;
+}
+.widget-category_image img {
+  max-width: 100%;
+  filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.widget-category_image img:hover {
+  filter: grayscale(0);
+  -moz-filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+}
+.widget-category_image label {
+  margin-top: 20px;
+  text-transform: uppercase;
+  color: black;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+.widget-category_image .nbproducts {
+  padding-bottom: 20px;
+}
+.widget-category_image .badge {
+  background-color: transparent;
+  color: #666666;
+}
+
+.bg-fullwidth:before {
+  background-size: initial !important;
+  top: 0;
+  background-position: 85% 0% !important;
+}
+
+.blog-container img {
+  max-width: 100%;
+  filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.blog-container img:hover {
+  filter: grayscale(0);
+  -moz-filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+}

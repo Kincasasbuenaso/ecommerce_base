@@ -1,0 +1,297 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+.screen {
+  min-height: 900px;
+}
+.screen h2 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+.screen > .ApColumn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.screen .block .title_block {
+  font-size: 36px;
+}
+
+.block-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.block-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.item-center {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+.item-center h2 {
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+  line-height: 1.2em;
+}
+.item-center .btn {
+  margin-top: 20px;
+  border: 2px solid white;
+  color: white;
+  background-color: transparent;
+}
+.item-center .btn:hover {
+  background-color: #f25d5d;
+  color: white;
+  border-color: #f25d5d;
+}
+.item-center .btn.btn-links {
+  background-color: #f25d5d;
+  color: white;
+  border-color: #f25d5d;
+  margin-left: 8px;
+}
+.rtl .item-center .btn.btn-links {
+  margin-right: 8px;
+  margin-left: inherit;
+}
+.item-center .btn.btn-links:hover {
+  border: 2px solid white;
+  color: white;
+  background-color: transparent;
+}
+
+.item-left .block .title_block {
+  text-align: left;
+}
+.rtl .item-left .block .title_block {
+  text-align: right;
+}
+.item-left .block .title_block:after {
+  right: auto;
+}
+.rtl .item-left .block .title_block:after {
+  left: auto;
+  right: auto;
+}
+
+.thesay-block {
+  color: black;
+  margin-left: -15px;
+  margin-bottom: 60px;
+}
+.rtl .thesay-block {
+  margin-right: -15px;
+  margin-left: inherit;
+}
+.thesay-block .left-block {
+  float: left;
+  margin-right: 20px;
+}
+.rtl .thesay-block .left-block {
+  float: right;
+}
+.rtl .thesay-block .left-block {
+  margin-left: 20px;
+  margin-right: inherit;
+}
+.thesay-block .right-block {
+  float: right;
+  width: 72%;
+}
+.rtl .thesay-block .right-block {
+  float: left;
+}
+.thesay-block .title {
+  margin-top: 20px;
+}
+.thesay-block .title span {
+  color: black;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+}
+
+.margin-home-top h2 {
+  margin-top: 20%;
+}
+
+.line-title h2 {
+  position: relative;
+  line-height: 0.8em;
+  padding-bottom: 35px;
+  margin-bottom: 40px;
+}
+.line-title h2:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  width: 70px;
+  height: 2px;
+  background-color: black;
+}
+.rtl .line-title h2:before {
+  right: 0;
+  left: auto;
+}
+.line-title h2 span {
+  display: block;
+  position: relative;
+  font-size: 20px;
+  letter-spacing: 8px;
+  font-weight: 700;
+  color: #666666;
+  padding-left: 15px;
+}
+.rtl .line-title h2 span {
+  padding-right: 15px;
+  padding-left: inherit;
+}
+.line-title h2 span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0px;
+  width: 3px;
+  height: 19px;
+  background-color: #f25d5d;
+  bottom: 0;
+  margin: auto;
+}
+.rtl .line-title h2 span:before {
+  right: 0;
+  left: auto;
+}
+.line-title h2 span:after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 0px;
+  width: 3px;
+  height: 19px;
+  background-color: #f25d5d;
+  bottom: 0;
+  margin: auto;
+}
+.rtl .line-title h2 span:after {
+  right: 5px;
+  left: auto;
+}
+.line-title .btn {
+  margin-top: 20px;
+  background-color: #f25d5d;
+}
+.line-title .btn:hover {
+  background-color: black;
+}
+
+.widget-category_image .block_content > ul li {
+  cursor: pointer;
+  background-color: white;
+}
+.widget-category_image .block_content > ul li .cate_content label {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Montserrat";
+  padding: 20px 0 0 0;
+}
+.widget-category_image .block_content > ul .nbproducts .badge {
+  background-color: transparent;
+  color: #666666;
+  font-size: 14px;
+  padding: 0 0 20px 0;
+  display: block;
+}
+
+.block .title_block:after {
+  top: 85px;
+}
+
+.color-white .block .title_block {
+  color: white;
+}
+.color-white .block .title_block span {
+  color: white;
+}
+
+#newsletter_block_left .block_content p {
+  display: none;
+}
+#newsletter_block_left .form-group {
+  position: relative;
+}
+#newsletter_block_left .form-control {
+  height: 50px;
+}
+#newsletter_block_left .button {
+  position: absolute;
+  margin-top: 0px !important;
+  top: 0;
+  right: 0;
+  height: 50px;
+  width: 50px;
+}
+.rtl #newsletter_block_left .button {
+  left: 0;
+  right: auto;
+}
+
+.footer_about {
+  text-align: center;
+}
+
+#social_block {
+  display: inline-block;
+}
+#social_block ul:before, #social_block ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#social_block ul li a {
+  width: 50px;
+}
+
+@media (min-width: 992px) {
+  #center_column #newsletter_block_left {
+    width: 700px;
+    margin: auto;
+    text-align: center;
+  }
+}
+@media (min-width: 480px) {
+  .widget-category_image .block_content > ul {
+    width: 33.33333%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .rtl .widget-category_image .block_content > ul {
+    float: right;
+  }
+  .widget-category_image .block_content > ul img {
+    max-width: 100%;
+  }
+}

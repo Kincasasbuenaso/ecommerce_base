@@ -1,0 +1,40 @@
+@import "compass";
+@import "theme_variables";
+
+.contact-hook{
+	text-align: center;
+	color: $white;
+	h6,a{
+		color: $white;
+		font-family: $font-family-secondary;
+		font-size: 14px;
+	}
+	h6{
+		&:first-child{
+			font-family: $font-family-tertiary;
+			font-weight: 700;
+			letter-spacing: 2px;
+		}
+	}
+	span{
+		font-size: 34px;
+		display: block;
+		border: 1px solid rgba(255,255,255, 0.8);
+		padding: 25px;
+    	margin: 20px 50px;
+	}
+	&:before{
+		width: 2500px;
+		margin-left: -500px;
+	}
+}
+#footer{
+	background-color: #272727;
+}
+@media (min-width: 992px){
+	.float-vertical{
+		.block_content{
+			display: block;
+		}
+	}
+}

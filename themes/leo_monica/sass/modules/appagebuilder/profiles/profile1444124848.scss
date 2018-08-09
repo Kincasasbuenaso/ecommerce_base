@@ -1,0 +1,17 @@
+@import "compass";
+@import "theme_variables";
+.manufacturers_block{
+	border: 1px dashed #dddddd;
+	padding-bottom: 40px;
+	img{
+		@include opacity(1);
+	}
+}
+.bannercontainer .tp-caption.btn-links .caption-contain {
+	background: $white;
+}
+.bannercontainer .tp-caption.btn-links.btn-link-bg .caption-contain{
+	background: $theme-color-default !important;
+	border: 2px solid $theme-color-default;
+	color:$white !important;
+}

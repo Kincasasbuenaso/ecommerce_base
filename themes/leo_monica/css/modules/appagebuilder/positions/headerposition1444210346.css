@@ -1,0 +1,223 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+.top_header .block {
+  margin-bottom: 0px;
+}
+.top_header .logo {
+  margin-top: 5px;
+}
+.top_header .blockcart_top {
+  float: none !important;
+  margin-top: 0px;
+  margin-left: 20%;
+}
+.rtl .top_header .blockcart_top {
+  margin-right: 20%;
+  margin-left: inherit;
+}
+.top_header .blockcart_top:before {
+  height: 39px;
+  top: 2px;
+  left: -40px;
+}
+.rtl .top_header .blockcart_top:before {
+  right: -40px;
+  left: auto;
+}
+.top_header .blockcart_top .shopping_cart {
+  float: none !important;
+}
+
+#cart .title-cart {
+  font-size: 13px;
+  font-weight: 700;
+}
+#cart .title-cart:before {
+  width: 33px;
+  height: 36px;
+  background: url("../../../../img/cart-icon.png") no-repeat;
+  text-indent: -99999px;
+}
+#cart .cart-quantity .hidden-all {
+  font-style: normal;
+}
+#cart .cart_block {
+  top: 50px;
+}
+
+.header-support .media-left {
+  display: inline-block;
+  padding-right: 10px;
+}
+.rtl .header-support .media-left {
+  padding-left: 10px;
+  padding-right: inherit;
+}
+.header-support .media-left .fa {
+  color: #999999;
+  font-size: 28px;
+  position: relative;
+  top: 8px;
+}
+.header-support .media-body {
+  display: inline-block;
+  vertical-align: top;
+}
+.header-support .media-body h6 {
+  font-family: "Lato";
+  text-transform: none;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.header-support .media-body p {
+  margin-bottom: 0px;
+}
+
+.leo-megamenu .navbar-nav > li > a {
+  padding: 20px 25px;
+  color: white;
+}
+.leo-megamenu .dropdown-menu {
+  top: 60px;
+}
+
+.shipping {
+  padding-top: 35px;
+}
+.shipping:before {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  #header-main .leo-megamenu .navbar-nav > li > a {
+    padding: 20px 15px;
+  }
+}
+@media (min-width: 992px) {
+  #search_block_top {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    position: relative;
+    width: 100%;
+    margin-top: 11px;
+    top: 0;
+    right: 0;
+  }
+}
+@media (max-width: 767px) {
+  .top_header .navbar-header .navbar-toggle {
+    margin-top: 12px;
+  }
+
+  #cart .title-cart:before {
+    width: 33px;
+    height: 36px;
+    background: url("../../../../img/cart-icon-white.png") no-repeat;
+  }
+}
+@media (max-width: 991px) {
+  .top_header .blockcart_top {
+    position: absolute;
+    top: -42px;
+    right: 0;
+  }
+  .rtl .top_header .blockcart_top {
+    left: 0;
+    right: auto;
+  }
+  .top_header .logo {
+    margin: 5px 0 0 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .top_header #search_block_top {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  #cart .title-cart {
+    padding-left: 30px;
+  }
+  .rtl #cart .title-cart {
+    padding-right: 30px;
+    padding-left: inherit;
+  }
+  #cart .title-cart span {
+    display: block;
+  }
+  #cart .title-cart:before {
+    top: 2px;
+  }
+  #cart .cart-quantity {
+    color: black;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    margin-left: 30px;
+    text-align: left;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    position: static;
+  }
+  .rtl #cart .cart-quantity {
+    margin-right: 30px;
+    margin-left: inherit;
+  }
+  .rtl #cart .cart-quantity {
+    text-align: right;
+  }
+  #cart .cart-quantity .hidden-all {
+    display: inline-block;
+    font-style: normal;
+  }
+  #cart .cart-quantity .ajax_cart_quantity {
+    padding: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .top_header .logo {
+    margin: 5px auto 0 auto;
+  }
+  .top_header .blockcart_top {
+    top: 49px;
+    right: 15px;
+    z-index: 10;
+  }
+  .rtl .top_header .blockcart_top {
+    left: 15px;
+    right: auto;
+  }
+  .top_header #cart {
+    z-index: 99;
+  }
+  .top_header #cart .title-cart:before {
+    left: -30px;
+  }
+  .rtl .top_header #cart .title-cart:before {
+    right: -30px;
+    left: auto;
+  }
+  .top_header #cart .cart-quantity {
+    right: -18px;
+  }
+  .rtl .top_header #cart .cart-quantity {
+    left: -18px;
+    right: auto;
+  }
+}

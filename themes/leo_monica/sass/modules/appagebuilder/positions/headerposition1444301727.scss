@@ -1,0 +1,145 @@
+@import "compass";
+@import "theme_variables";
+.index{
+	#header{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&amp;0.65+0,0+100;Neutral+Density */
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+	}
+}
+#header{
+	background: #272727;
+	.top_header{
+		text-align: center;
+		background: $nocolor;
+		.container{
+			background: $nocolor;
+		}
+		.ApColumn .block.btn_search{
+			a{
+				color: $white;
+			}
+		}
+		.logo{
+			margin: 50px 0 25px 0;
+			display: inline-block;
+		}
+
+	}
+}
+#topbar{
+	background: $nocolor;
+	border-color: rgba(250,250,250,0.22);
+	.container{
+		background: $nocolor;
+	}
+	a{
+		color: $white;
+	}
+	.popup-title{
+		color: $white;
+	}
+	#cart .title-cart{
+		color: $white;
+	}
+}
+
+@media (min-width: 991px){
+	#search_block_top.showsearch{
+		border-color: $white;
+		color: $white;
+		form#searchbox input.search_query {
+			color: $white;
+		    background-color: transparent;
+		}
+	}
+}
+.blockcart_top{
+    margin-top: 4px;
+}
+// MENU
+#leo-megamenu{
+	margin-bottom: 10px;
+	position: relative;
+	float: none !important;
+	.navbar-nav{
+		float: none;
+		display: inline-block;
+		@include rtl-text-align-left();
+	}
+	.leo-megamenu{
+		.navbar-nav > li > a {
+    		padding: 15px 25px 13px 25px;
+    		color: $white;
+    		&:hover{
+    			color: $theme-color-default;
+    		}
+    		&:before{
+    			content: "";
+    			position:absolute;
+    			height: 10px;
+    			width: 100%;
+    			background-color: $nocolor;
+    			bottom: -10px; 
+    			left:0px;
+    		}
+		}
+		.dropdown-menu{
+			top: 53px;
+		}
+	}
+	.dropdown-submenu:hover > .dropdown-menu{
+		top: 0px;
+	}
+}
+
+@media (min-width: 992px){
+	.ApColumn .block.btn_search {
+	    @include rtl-right(20px);
+	    top: 2px;
+	    z-index: 10;
+	}
+	#search_block_top{
+	    @include rtl-right(15px);
+	    bottom: 25px;
+	    z-index: 0;
+	    &.showsearch{
+	    	width: 97%;
+	    	z-index: 9;
+	    }
+	}
+	.header_user_info{
+		@include rtl-padding-right(45px);
+	}
+}
+@media (max-width: 991px){
+	.blockcart_top {
+	    margin-top: 2px !important;
+	}
+	#leo-megamenu .leo-megamenu .navbar-nav > li > a {
+    	padding: 15px 15px 13px 15px;
+	}
+	#header #search_block_top{
+		width: 100%;
+	}
+}
+@media (max-width: 767px){
+	#header{
+		 #search_block_top {
+	    	bottom: 0px;
+	   	 	width: 86%;
+		}
+	}
+}
+@media (max-width: 480px){
+	#header{
+		#search_block_top {
+		    width: 81%;
+		}
+	}
+}

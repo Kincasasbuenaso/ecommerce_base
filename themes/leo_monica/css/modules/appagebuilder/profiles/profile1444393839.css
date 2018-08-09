@@ -1,0 +1,73 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+body.index {
+  background-color: #f3f3f3;
+  background-image: url("../../../../img/bg-body.jpg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+body.index .container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+body.index #header-main .container {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#topbar {
+  background-color: transparent;
+  border: none;
+}
+#topbar .container {
+  border-bottom: 1px solid #eaeaea;
+}
+
+.top_header {
+  background-color: transparent;
+}
+.top_header .container {
+  background-color: white;
+}
+
+.block-icon {
+  line-height: 1.6em;
+  color: white;
+}
+.block-icon > .ApColumn {
+  padding-bottom: 15px;
+  padding-top: 50px;
+  background-color: #e59572;
+}
+.block-icon > .ApColumn:nth-child(odd) {
+  background-color: #f1aa8b;
+}
+.block-icon i {
+  font-size: 30px;
+  color: white;
+}
+.block-icon h2 {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  margin-top: 20px;
+}
+
+.manufacturers_block img {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}

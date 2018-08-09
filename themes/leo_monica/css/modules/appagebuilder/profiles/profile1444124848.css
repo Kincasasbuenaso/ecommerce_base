@@ -1,0 +1,33 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+.manufacturers_block {
+  border: 1px dashed #dddddd;
+  padding-bottom: 40px;
+}
+.manufacturers_block img {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.bannercontainer .tp-caption.btn-links .caption-contain {
+  background: white;
+}
+
+.bannercontainer .tp-caption.btn-links.btn-link-bg .caption-contain {
+  background: #f25d5d !important;
+  border: 2px solid #f25d5d;
+  color: white !important;
+}

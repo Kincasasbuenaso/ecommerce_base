@@ -1,0 +1,88 @@
+@import "compass";
+@import "theme_variables";
+.blockcart_top{
+    margin-top: 4px;
+}
+.top_header{
+	text-align: center;
+	.logo{
+		margin: 50px 0 25px 0;
+		display: inline-block;
+	}
+}
+// MENU
+#leo-megamenu{
+	margin-bottom: 10px;
+	position: relative;
+	float: none !important;
+	.navbar-nav{
+		float: none;
+		display: inline-block;
+		@include rtl-text-align-left();
+	}
+	.leo-megamenu{
+		.navbar-nav > li > a {
+    		padding: 15px 25px 13px 25px;
+    		&:before{
+    			content: "";
+    			position:absolute;
+    			height: 10px;
+    			width: 100%;
+    			background-color: $nocolor;
+    			bottom: -10px; left:0px;
+    		}
+		}
+		.dropdown-menu{
+			top: 53px;
+		}
+	}
+	.dropdown-submenu:hover > .dropdown-menu{
+		top: 0px;
+	}
+}
+
+@media (min-width: 992px){
+	.ApColumn .block.btn_search {
+	    @include rtl-right(20px);
+	    top: 2px;
+	    z-index: 10;
+	}
+	#search_block_top{
+	    @include rtl-right(15px);
+	    bottom: 25px;
+	    z-index: 0;
+	    &.showsearch{
+	    	width: 97%;
+	    	z-index: 9;
+	    }
+	}
+	.header_user_info{
+		@include rtl-padding-right(45px);
+	}
+}
+@media (max-width: 991px){
+	.blockcart_top {
+	    margin-top: 2px !important;
+	}
+	#leo-megamenu .leo-megamenu .navbar-nav > li > a {
+    	padding: 15px 15px 13px 15px;
+	}
+	#header #search_block_top{
+		width: 100%;
+	}
+}
+@media (max-width: 767px){
+	#header{
+		 #search_block_top {
+	    	bottom: 0px;
+	   	 	width: 86%;
+		}
+	}
+}
+@media (max-width: 480px){
+	#header{
+		#search_block_top {
+		    width: 81%;
+		}
+	}
+}
